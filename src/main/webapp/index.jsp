@@ -25,6 +25,9 @@
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../dist/img/apple-touch-icon-precomposed-57.png">
     <link rel="stylesheet" href="css/patternfly.min.css" >
     <link rel="stylesheet" href="css/patternfly-additions.min.css" >
+    <link rel="stylesheet" href="css/main.css" >
+    <link rel="stylesheet" href="css/vendor.css" >
+    <link rel="stylesheet" href="css/extensions.css" >
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.6.0/jquery.matchHeight-min.js"></script>
@@ -35,15 +38,19 @@
   <body class="cards-pf">
     <nav class="navbar navbar-default navbar-pf" role="navigation">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/">
-          OpenShift Tasks Demo
-        </a>
+
+      <div row="" class="navbar-flex-btn toggle-menu">
+      <button type="button" class="navbar-toggle project-action-btn ng-isolate-scope" data-toggle="collapse" data-target=".navbar-collapse-2">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+      </div>
+
+      <a class="navbar-brand" id="openshift-logo" href="./">
+      <div id="header-logo"></div><span style="float: left;color: #E20074;margin-top: 20px;font-size: 20px; font-weight:300;">AppAgile - Tasks Demo App</span>
+      </a>
       </div>
       <div class="collapse navbar-collapse navbar-collapse-1">
         <ul class="nav navbar-nav navbar-primary">
