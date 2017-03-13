@@ -52,13 +52,6 @@
       <div id="header-logo"></div><span style="float: left;color: #E20074;margin-top: 20px;font-size: 20px; font-weight:300;">AppAgile - Tasks Demo App</span>
       </a>
       </div>
-      <div class="collapse navbar-collapse navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-primary">
-          <li class="active">
-            <a href="/index.html" class="active">Home</a>
-          </li>
-        </ul>
-      </div>
     </nav>
     <div class="container-fluid container-cards-pf">
       <div class="row row-cards-pf">
